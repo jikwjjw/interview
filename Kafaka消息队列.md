@@ -42,4 +42,10 @@
 ----------
 + producer
   + producer指定消息发送到指定的topic中，一个topic可能由多个broker维持，并且同一个broker可能维持多个topic，consumer根据订阅的topic到对应的broker去读取数据。poroducer每发送要一个消息会追加到topic队列之后，按照时间排序，不能插队，也不能修改之前的消息，可以被多个consumer消费，也可以重复消费。
++ Replica
+  + topic下会划分多个partition，每个partition都有自己的副本replica，其中只有一个时leader replica，其余都是follower replica。
+  + 消息进来的时候先存入leader replica，然后从leader replica复制到follower replica，只有复制全部完成时，才能消费此条消息，这是确保意外消息发送时，数据可以恢复。consumer的消费也是从leader replica读取的
+  + replica均匀分配在broker上，同一个partition的replica不会在同一个broker上
+  + 同一个partition的replica数量不能多于broker数量，多个replica为了数据安全，一台server存多个replica，没有意义。
+  + 分区的leader replica均衡分布在broker上，此时集群的负载是均衡的。
   
