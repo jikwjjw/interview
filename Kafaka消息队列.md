@@ -24,4 +24,11 @@
   + 消息系统：解耦生产者和消费者，缓存消息
   + 用户活动追踪：kafka经常被用到记录wen用户或者app用户的各种活动，如浏览网页搜索，点击等活动，这些活动消息被各个服务器发布到kafka各个topic中，然后订阅这些topic来做实时监控分析
  ---------------------
-+ lerder：Kafka集群
++ lerder：
+  + Kafka集群中可以看到若干个broker，其中一个broker是leader，其他broker是flower，leader在集群启动时选举出来，负责和外部通讯，当leader死掉的时候，follower们会再次通过选举，选择出新的leader，确保集群的正常工作
+  + leader负责管理整个集群中分区和副本的状态
+-----------
++ Partition(分区)
+  + 为了实现扩展属性，一个非常大的topic可以分布到多个broker(即服务器上)，一个topic也可以分为多个partiton,每个partition是一个有序队列
+  + partition中的每条消息都会被分配一个有序的id(offset)，kafka只保证按一个partition中的顺序，将消息发送给consumer，不能保证一个topic的整体(多个partioton间)的顺序
+  + 一个topic在集群中可以有多个partition，一个broker也可以有多个partition
