@@ -5,4 +5,4 @@
   + 由于只能在链表头插入，所以链表中节点的顺序和插入的顺序相反
   + Segment类继承于RenntranLock类，从而使得Segment对象能充当锁的角色，每个Segment对象用来守护其成员对象table，包含若干的桶。
     + table是一个由segment对应的，一个segment对应一个table，table是一个由HashEntry对象组成的数组，table数组的每个数组成员变量就是散列映射的桶。
-  + 避免热点域：在ConCurrentHashMap中，每个Segment对象都有一个count对象来表示本Segment中包含HashEntry对象的个数，这样当需要更新计数器时，不用锁定整个在ConCurrentHashMap。
+  + 避免热点域：在ConCurrentHashMap中，每个Segment对象都有一个count对象来表示本Segment中包含HashEntry对象的个数，这样当需要更新计数器时，不用锁定整个ConCurrentHashMap。
