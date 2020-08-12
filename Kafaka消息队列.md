@@ -32,3 +32,14 @@
   + 为了实现扩展属性，一个非常大的topic可以分布到多个broker(即服务器上)，一个topic也可以分为多个partiton,每个partition是一个有序队列
   + partition中的每条消息都会被分配一个有序的id(offset)，kafka只保证按一个partition中的顺序，将消息发送给consumer，不能保证一个topic的整体(多个partioton间)的顺序
   + 一个topic在集群中可以有多个partition，一个broker也可以有多个partition
+  + 一个broker上可以实现多个partition，这样producer可以将数据发送给多个broker的多个partition，consumer也可以并从多个broker的不同partition上来读取数据，实现水平扩展。
+----------
++ Zookeeper
+  + kafka使用Zookeeper来实现动态的集群扩展，不需要改变producer和consumer配置，broker会在zookeeper注册并保持相关的元数据(topic，partition信息等)更新
+  + 而客户端会在zookeeper来注册相关的watcher，一旦zookeeper发生变化，客户端能及时感知并作出相应调整，这样就保证了添加或去除broker时，各broker之间仍能自动实现负载均衡
+  + broker端使用zookeeper来注册Consumer消息，其中包括consumer消费的partition列表，同时发现broker列表，并和partition leader建立socket链接，并获取消息
+  + zookeeper和producer没有建立关系，只和broker，consumer建立关系，以实现负载均衡，即同一个consumer group中的consumer可以实现复杂均衡
+----------
++ producer
+  + producer指定消息发送到指定的topic中，一个topic可能由多个broker维持，并且同一个broker可能维持多个topic，consumer根据订阅的topic到对应的broker去读取数据。poroducer每发送要一个消息会追加到topic队列之后，按照时间排序，不能插队，也不能修改之前的消息，可以被多个consumer消费，也可以重复消费。
+  
