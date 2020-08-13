@@ -22,6 +22,7 @@
 + [AQS](https://github.com/jikwjjw/interview/blob/master/AQS.md)
 ---------------
 + [美团内存 KV Squirrel](https://github.com/jikwjjw/interview/blob/master/%E7%BE%8E%E5%9B%A2%E5%86%85%E5%AD%98%20KV%20Squirrel.md)
++ [Zookeeper集群"脑裂"](https://github.com/jikwjjw/interview/blob/master/Zookeeper%E9%9B%86%E7%BE%A4%22%E8%84%91%E8%A3%82%22.md)
 ------------
 + [fork()-操作系统](https://github.com/jikwjjw/interview/blob/master/fork()-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md)
 + [内存模型_操作系统](https://github.com/jikwjjw/interview/blob/master/%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B_%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md)
