@@ -13,3 +13,5 @@
 + [Mysql提高insert into](https://github.com/jikwjjw/interview/edit/master/Mysql%E6%8F%90%E9%AB%98insert%20into.md)
 + [数据库索引创建及btree和hash索引的区别](https://github.com/jikwjjw/interview/blob/master/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B4%A2%E5%BC%95%E5%88%9B%E5%BB%BA%E5%8F%8Abtree%E5%92%8Chash%E7%B4%A2%E5%BC%95%E7%9A%84%E5%8C%BA%E5%88%AB.md)
 + [数据库二次索引及覆盖索引](https://github.com/jikwjjw/interview/blob/master/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BA%8C%E6%AC%A1%E7%B4%A2%E5%BC%95.md)
++ [MySql主从复制过程](https://github.com/jikwjjw/interview/blob/master/MySql%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E8%BF%87%E7%A8%8B.md)
++ [MySql保证原子性](https://github.com/jikwjjw/interview/blob/master/MySql%E4%BF%9D%E8%AF%81%E5%8E%9F%E5%AD%90%E6%80%A7.md)
