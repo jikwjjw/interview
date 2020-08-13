@@ -15,3 +15,4 @@
 + [数据库二次索引及覆盖索引](https://github.com/jikwjjw/interview/blob/master/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BA%8C%E6%AC%A1%E7%B4%A2%E5%BC%95.md)
 + [MySql主从复制过程](https://github.com/jikwjjw/interview/blob/master/MySql%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E8%BF%87%E7%A8%8B.md)
 + [MySql保证原子性](https://github.com/jikwjjw/interview/blob/master/MySql%E4%BF%9D%E8%AF%81%E5%8E%9F%E5%AD%90%E6%80%A7.md)
++ [socket套接字](https://github.com/jikwjjw/interview/blob/master/socket.md)
