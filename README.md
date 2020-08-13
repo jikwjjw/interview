@@ -17,6 +17,7 @@
 + [java同步容器](https://github.com/jikwjjw/interview/edit/master/java%E5%90%8C%E6%AD%A5%E5%AE%B9%E5%99%A8.md)
 + [synchronized关键字底层原理](https://github.com/jikwjjw/interview/blob/master/synchronized%E5%85%B3%E9%94%AE%E5%AD%97%E5%BA%95%E5%B1%82%E5%8E%9F%E7%90%86.md)
 + [Synchronized和ReentrantLock的区别](https://github.com/jikwjjw/interview/blob/master/Synchronized%E5%92%8CReentrantLock%E7%9A%84%E5%8C%BA%E5%88%AB.md)
++ [AQS](https://github.com/jikwjjw/interview/blob/master/AQS.md)
 ---------------
 + [fork()-操作系统](https://github.com/jikwjjw/interview/blob/master/fork()-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md)
 + [内存模型_操作系统](https://github.com/jikwjjw/interview/blob/master/%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B_%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md)
