@@ -5,6 +5,7 @@
 + [ThreadLocal](https://github.com/jikwjjw/interview/blob/master/ThreadLocal.md)
 + [TLAB](https://github.com/jikwjjw/interview/blob/master/TLAB.md)
 + [Java Hotspot G1 GC的一些关键技术](https://github.com/jikwjjw/interview/blob/master/Java%20Hotspot%20G1%20GC%E7%9A%84%E4%B8%80%E4%BA%9B%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF.md)
++ [新一代垃圾回收器ZGC](https://github.com/jikwjjw/interview/blob/master/%E6%96%B0%E4%B8%80%E4%BB%A3%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6%E5%99%A8ZGC.md)
 ----------------------------
 + [HTTP1.0及1.1和HTTP1.1区别](https://github.com/jikwjjw/interview/blob/master/HTTP1.0%E5%8F%8A1.1%E5%92%8CHTTP1.1%E5%8C%BA%E5%88%AB.md)
 + [socket套接字](https://github.com/jikwjjw/interview/blob/master/socket.md)
