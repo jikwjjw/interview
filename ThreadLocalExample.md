@@ -1,3 +1,4 @@
+```
 import java.text.SimpleDateFormat;
 import java.util.Random;
 
@@ -50,3 +51,4 @@ public class ThreadLocalExample implements Runnable {
      * Thread Name= 4 formatter = yy-M-d ah:mm
      */
 }
+```
