@@ -6,4 +6,15 @@
   // java.util.concurrent.locks.AbstractQueuedSynchronizer
   private volatile int state;
   ```
++ AQS定义两种资源共享方式
+  + 独占：只有一个线程能执行，又分为公平锁和非公平锁
+  + 共享：多线程可同时执行，通过信号量来控制多线程访问某个资源
++ 非公平锁和公平锁区别
+  + 非公平锁性能高于公平锁，非公平锁可以减少CPU唤醒线程的开销，整体吞吐率会高点，CPU也不必唤醒所有线程，会减少唤起线程的数量
+  + 非公平锁性能虽然优先公平锁，但会导致线程饥饿情况，在最坏情况下，可能存在某个线程一直获取不到锁。
+---------------------
++ condition代替传统的object的wait(),notify()实现线程协作，相比使用object的wait(),notify(),使用condition中的await(),signal()这种方式实现线程之间协作更加安全和高效
++ condition和wait/notify的区别
+  + condition可以精确的对多个不同条件进行控制，wait/notify只能和synchronized关键字一起使用，并且只能唤醒一个或多个的等待队列
+  + condition需要使用lock进行控制，使用的时候主要lock和unlock，condition不会产生死锁，而wait/notify可能会产生死锁
 
