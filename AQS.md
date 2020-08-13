@@ -62,6 +62,13 @@
   + 非公平锁性能高于公平锁，非公平锁可以减少CPU唤醒线程的开销，整体吞吐率会高点，CPU也不必唤醒所有线程，会减少唤起线程的数量
   + 非公平锁性能虽然优先公平锁，但会导致线程饥饿情况，在最坏情况下，可能存在某个线程一直获取不到锁。
 ---------------------
++ AQS使用场景：
+  + ReentrantLock：使用AQS保存锁重复持有的次数。当一个线程获取锁时，ReentrantLock记录当前获得锁的线程标识，用于检测是否重复获取，以及错误线程试图解锁操作时异常情况的处理
+  + Semaphore：使用AQS同步状态来保存信号量的当前计数。tryRelease会增加计数，acquireShared会减少计数。
+  + CountDownLatch:使用AQS同步状态来表示计数。计数为0时，所有的Acquire操作（CountDownLatch的await方法）才可以通过。
+  + ReentrantReadWriteLock:使用AQS同步状态中的16位保存写锁持有的次数，剩下的16位用于保存读锁的持有次数。
+  + ThreadPoolExecutor:Worker利用AQS同步状态实现对独占线程变量的设置（tryAcquire和tryRelease）。
+--------------------
 + condition代替传统的object的wait(),notify()实现线程协作，相比使用object的wait(),notify(),使用condition中的await(),signal()这种方式实现线程之间协作更加安全和高效
 + condition和wait/notify的区别
   + condition可以精确的对多个不同条件进行控制，wait/notify只能和synchronized关键字一起使用，并且只能唤醒一个或多个的等待队列
