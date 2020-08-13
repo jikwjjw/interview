@@ -8,3 +8,4 @@
   + 采用延迟插入，服务立刻返回结果，后台进入插入
 + 使用insert values替代insert
 + 分库，分表，MyISAM存储引擎
+
