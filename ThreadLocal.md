@@ -1,3 +1,8 @@
++ 通常情况下，我们创建的变量是可以被任意线程访问修改的。如果创建了一个ThreadLocal变量，那么访问这个变量的每个线程都会有此变量的变量副本，可以使用get()和set()方法来获取默认值或将其值更改为当前线程所存的副本值，从而避免线程问题。
++ 主线程为默认副本值，改变的是其他线程自己的副本值。
++ ThreadLocal内存泄漏问题
+    + ThreadLocalMap是ThreadLocal内部静态类
+    + ThreadLocalMap中使用key为ThreadLocal的弱引用，而value是强应用，所以ThreadLocal没有被外部强引用的情况下，在回收的的时候，key会被清理掉，而value不会被清理掉，这样来ThreadLocalMap中就会出现key为Null的Entry，假如我们不做任何措施的话，value永远无法被回收，这时候就可能产生内存泄漏。而ThreadLocalMap通过set(),get(),remove()等方法自动清理key为null的记录。
 ```
 import java.text.SimpleDateFormat;
 import java.util.Random;
