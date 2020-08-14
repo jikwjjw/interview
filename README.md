@@ -33,6 +33,7 @@
 + [redis线程模型和秒杀系统设计](https://github.com/jikwjjw/interview/blob/master/redis%E7%BA%BF%E7%A8%8B%E6%A8%A1%E5%9E%8B%E5%92%8C%E7%A7%92%E6%9D%80%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1.md)
 + [常见性能优化策略的总结](https://github.com/jikwjjw/interview/blob/master/%E5%B8%B8%E8%A7%81%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E7%AD%96%E7%95%A5%E7%9A%84%E6%80%BB%E7%BB%93.md)
 + [处理缓存雪崩，缓存击穿，缓存穿透等问题](https://github.com/jikwjjw/interview/blob/master/%E5%A4%84%E7%90%86%E7%BC%93%E5%AD%98%E9%9B%AA%E5%B4%A9%EF%BC%8C%E7%BC%93%E5%AD%98%E5%87%BB%E7%A9%BF%EF%BC%8C%E7%BC%93%E5%AD%98%E7%A9%BF%E9%80%8F%E7%AD%89%E9%97%AE%E9%A2%98.md)
++ [缓存与数据库双写一致](https://github.com/jikwjjw/interview/blob/master/%E7%BC%93%E5%AD%98%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E5%8F%8C%E5%86%99%E4%B8%80%E8%87%B4.md)
 ------------
 + [fork()-操作系统](https://github.com/jikwjjw/interview/blob/master/fork()-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md)
 + [内存模型_操作系统](https://github.com/jikwjjw/interview/blob/master/%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B_%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md)
