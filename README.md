@@ -27,6 +27,7 @@
 + [美团内存 KV Squirrel](https://github.com/jikwjjw/interview/blob/master/%E7%BE%8E%E5%9B%A2%E5%86%85%E5%AD%98%20KV%20Squirrel.md)
 + [Zookeeper集群"脑裂"](https://github.com/jikwjjw/interview/blob/master/Zookeeper%E9%9B%86%E7%BE%A4%22%E8%84%91%E8%A3%82%22.md)
 + [分布式锁的实现之redis](https://github.com/jikwjjw/interview/blob/master/%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E7%9A%84%E5%AE%9E%E7%8E%B0%E4%B9%8B%20redis.md)
++ [分布式事务](https://github.com/jikwjjw/interview/blob/master/%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1.md)
 + [Redis-keys,scan](https://github.com/jikwjjw/interview/blob/master/Redis-keys%2Cscan.md)
 + [redis的zset，list](https://github.com/jikwjjw/interview/blob/master/redis%E7%9A%84zset%EF%BC%8Clist.md)
 + [redis做异步队列，延时队列，集群高可用](https://github.com/jikwjjw/interview/blob/master/redis%E5%81%9A%E5%BC%82%E6%AD%A5%E9%98%9F%E5%88%97%EF%BC%8C%E5%BB%B6%E6%97%B6%E9%98%9F%E5%88%97%EF%BC%8C%E9%9B%86%E7%BE%A4%E9%AB%98%E5%8F%AF%E7%94%A8.md)
