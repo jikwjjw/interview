@@ -9,6 +9,7 @@
 ----------------------------
 + [HTTP1.0及1.1和HTTP1.1区别](https://github.com/jikwjjw/interview/blob/master/HTTP1.0%E5%8F%8A1.1%E5%92%8CHTTP1.1%E5%8C%BA%E5%88%AB.md)
 + [socket套接字](https://github.com/jikwjjw/interview/blob/master/socket.md)
++ [单点登录cookie，session](https://github.com/jikwjjw/interview/blob/master/%E5%8D%95%E7%82%B9%E7%99%BB%E5%BD%95cookie%EF%BC%8Csession.md)
 + [Https过程](https://github.com/jikwjjw/interview/blob/master/Https%E8%BF%87%E7%A8%8B.md)
 + [数字签名](https://github.com/jikwjjw/interview/blob/master/%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D.md)
 -----------------------------
