@@ -120,8 +120,8 @@ public native boolean tryMonitorEnter(Object o);
   public native void storeFence();
   //内存屏障，禁止load、store操作重排序
   public native void fullFence();
-```
-----------
+  ```
+------------
 + 系统相关
   + 这部分包含两个获取系统相关信息的方法。
   ```
