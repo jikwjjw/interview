@@ -20,6 +20,7 @@
 + [synchronized关键字底层原理](https://github.com/jikwjjw/interview/blob/master/synchronized%E5%85%B3%E9%94%AE%E5%AD%97%E5%BA%95%E5%B1%82%E5%8E%9F%E7%90%86.md)
 + [Synchronized和ReentrantLock的区别](https://github.com/jikwjjw/interview/blob/master/Synchronized%E5%92%8CReentrantLock%E7%9A%84%E5%8C%BA%E5%88%AB.md)
 + [AQS](https://github.com/jikwjjw/interview/blob/master/AQS.md)
++ [java锁](https://github.com/jikwjjw/interview/blob/master/Java%E9%94%81.md)
 ---------------
 + [美团内存 KV Squirrel](https://github.com/jikwjjw/interview/blob/master/%E7%BE%8E%E5%9B%A2%E5%86%85%E5%AD%98%20KV%20Squirrel.md)
 + [Zookeeper集群"脑裂"](https://github.com/jikwjjw/interview/blob/master/Zookeeper%E9%9B%86%E7%BE%A4%22%E8%84%91%E8%A3%82%22.md)
