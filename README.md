@@ -25,6 +25,7 @@
 ---------------
 + [美团内存 KV Squirrel](https://github.com/jikwjjw/interview/blob/master/%E7%BE%8E%E5%9B%A2%E5%86%85%E5%AD%98%20KV%20Squirrel.md)
 + [Zookeeper集群"脑裂"](https://github.com/jikwjjw/interview/blob/master/Zookeeper%E9%9B%86%E7%BE%A4%22%E8%84%91%E8%A3%82%22.md)
++ [分布式锁的实现之 redis](https://github.com/jikwjjw/interview/blob/master/%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E7%9A%84%E5%AE%9E%E7%8E%B0%E4%B9%8B%20redis.md)
 + [常见性能优化策略的总结](https://github.com/jikwjjw/interview/blob/master/%E5%B8%B8%E8%A7%81%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E7%AD%96%E7%95%A5%E7%9A%84%E6%80%BB%E7%BB%93.md)
 ------------
 + [fork()-操作系统](https://github.com/jikwjjw/interview/blob/master/fork()-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md)
